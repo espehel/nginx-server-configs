@@ -1,0 +1,9 @@
+server {
+	listen 80;
+	server_name espehel.no www.espehel.no;
+	
+	location / {
+		alias /srv/www/espehel.no/;
+
+	}
+}
